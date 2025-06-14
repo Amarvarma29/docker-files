@@ -1,6 +1,6 @@
 FROM almalinux:9
 RUN mkdir /tmp/docker
-Run cd /tmp/docker
+WORKDIR cd /tmp/docker
 RUN pwd
 RUN echo "Hello, World!" > /tmp/docker/hello.txt
 CMD ["sleep", "100"]
