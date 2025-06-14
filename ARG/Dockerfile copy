@@ -1,0 +1,7 @@
+ARG version
+FROM almalinux:{ version }
+ENV course="devops"\
+    company="joindevops"\
+    duration="120h"
+ENV course =$course
+CMD ["sleep", "100"]    
